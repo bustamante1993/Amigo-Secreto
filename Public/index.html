@@ -100,6 +100,7 @@
                 <th>
                     Opciones
                 </th>
+                
             </tr>`
             //recorremos los jugadores, iniciamos en la posiscion 0 y terminamos en la posicion antes de la longitud de los jugadores, cada jugador lo llamaremos j y será correspondiente a la posicion i de jugadores
             for (let i = 0; i < jugadores.length; i++) {
@@ -137,6 +138,20 @@
                 <input type="text" placeholder="Nombre" class="swal2-input" id="box-nombre">
                 <input type="text" placeholder="Correo" class="swal2-input" id="box-correo">
                 <input type="text" placeholder="Gustos & Disgustos" class="swal2-input" id="box-gustos">
+                <select class="swal2-input">
+        
+        <option value="1">Grupo 1</option>
+        <option value="2">Grupo 2</option>
+        <option value="3">Grupo 3</option>
+        <option value="4">Grupo 4</option>
+        <option value="5">Grupo 5</option>
+        <option value="6">Grupo 6</option>
+        <option value="7">Grupo 7</option>
+        <option value="8">Grupo 8</option>
+        <option value="9">Grupo 9</option>
+        <option value="10">Grupo 10</option>
+
+    </select>
                 `,
                 //Acá creamos una acción logica la cual se encargará de decirnos si los datos ingresados son los correctos, la opción es preconfirm, es parte de suitealert. 
                 preConfirm: () => { 
@@ -298,9 +313,9 @@
     </script>
 
     <footer>
-        <i class="fas fa-user-friends"></i> | Creado por Juan Felipe Bustamante Correa | <i class="fas fa-gift"></i>
+        <i class="fas fa-user-friends"></i> | Creado por Manuela Quiroz & Juan Felipe Bustamante Correa | <i class="fas fa-gift"></i>
     </footer>
-
+   
 </body>
 
 

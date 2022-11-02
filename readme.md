@@ -10,7 +10,11 @@ Somos un equipo de trabajo conformado por 2 personas localizadas en la ciudad de
 
 ## Qué haremos?
 
-Crearemos un juego donde todos los empleados podran registrarse con su nombre, correo electrónico corporativo (365), y de la misma manera se brindará la opción de registrar gustos y disgustos.
+1. Se enviará un comunicado a toodos los colaboradores de la empresa a través de correo electrónico informando que se llevará a cabo un juego de amigo secreto con fecha limite de respuesta. Las personas que acepten, dependiendo el área y/o dpto de trabajo, serán agregadas en uno de los 10 grupos que se crearán. 
+
+2. Una vez creados los grupos se enviará un segundo comunicado por medio del mismo correo dando a conocer a que grupo pertenece cada persona, como se registrará, modalidad terminos y condiciones del juego. 
+
+3. Todos los empleados podran registrarse con su nombre, correo electrónico corporativo (Office 365), y de la misma manera se brindará la opción de registrar gustos y disgustos.
 
 - Se crearán grupos. 
 - Cada grupo tendrá un lider. 
@@ -19,9 +23,12 @@ Crearemos un juego donde todos los empleados podran registrarse con su nombre, c
 - Se asignaran fechas para endulzadas. 
 - Se determinará fecha para evento de descubrimiento.
 
-Manuela Quiroz & Felipe Bustamante
+Manuela Quiroz & Felipe Bustamante 
 
 # Qué hicimos?
+
+- El juego será ejecutado y trabajado por un servidor y un cliente, luego de consultar y realizar un proceso investigativo, JavaScript no es capaz de enviar correos electrónicos por si solo, node.js si soporta dicho proceso, los correos elecrónicos serán el medio por el cual las personas se van a comunicar con la maquina para saber que amigo secreto fue el que les tocó. 
+Al momento de presionar el botón jugar, se enviaran correo a cada persona registrada en la plataforma, en el correo se encontrará el nombre de la persona que le tocó como amigo secreto, correo corporativo, gustos y disgustos. 
 
 - Instalamos Packaje.json por medio de npm init --yes, con el fin de instalar paquetes o dependencias en el proyecto. Su finalidad es mantener un historial de los paquetes instalados y optimizar la forma en que se generan las dependencias del proyecto y los contenidos de la carpeta node_modules/ 
 
@@ -33,12 +40,19 @@ Manuela Quiroz & Felipe Bustamante
 
 - Instalamos nodemailer por medio de npm install nodemailer, modulo que sirve de interfaz para el envío de correos electrónicos. 
 
-- El juego será ejecutado y trabajado por un servidor y un cliente, luego de consultar y realizar un proceso investigativo, JavaScript no es capaz de enviar correos electrónicos por si solo, node.js si soporta dicho proceso, los correos elecrónicos serán el medio por el cual las personas se van a comunicar con la maquina para saber que amigo secreto fue el que les tocó. 
-Al momento de presionar el botón jugar, se enviaran correo a cada persona registrada en la plataforma, en el correo se encontrará el nombre de la persona que le tocó como amigo secreto, correo corporativo, gustos y disgustos. 
-
 - Instalamos el script "start": "node server.js" para ejecutar nuestro programa, para iniciar nuestro servidor. 
 
 - Instalamos el script de desarrollo "dev": "nodemon server.js", para iniciar, reiniciar nuestro servidor cada vez que haya un cambio en un archivo .js o .html. 
+
+
+## Pendientes
+
+- Poner la opcion de grupos al momento de registrarse 1 jugador
+- Cada grupo tendrá un lider. 
+- Se asignaran fechas para endulzadas.
+- Se determinará fecha para evento de descubrimiento.
+- Ponerle fondo con css
+- Y entre más diseño mucho mejor. 
 
 
 
