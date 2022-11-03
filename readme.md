@@ -12,7 +12,7 @@ Somos un equipo de trabajo conformado por 2 personas localizadas en la ciudad de
 
 1. Se enviará un comunicado a toodos los colaboradores de la empresa a través de correo electrónico informando que se llevará a cabo un juego de amigo secreto con fecha limite de respuesta. Las personas que acepten, dependiendo el área y/o dpto de trabajo, serán agregadas en uno de los 10 grupos que se crearán. 
 
-2. Una vez creados los grupos se enviará un segundo comunicado por medio del mismo correo dando a conocer a que grupo pertenece cada persona, como se registrará, modalidad terminos y condiciones del juego. 
+2. Una vez creados los grupos se enviará un segundo comunicado por medio del mismo correo dando a conocer a que grupo pertenece cada persona, como se registrará, modalidad, terminos y condiciones del juego. 
 
 3. Todos los empleados podran registrarse con su nombre, correo electrónico corporativo (Office 365), y de la misma manera se brindará la opción de registrar gustos y disgustos.
 
@@ -23,7 +23,7 @@ Somos un equipo de trabajo conformado por 2 personas localizadas en la ciudad de
 - Se asignaran fechas para endulzadas. 
 - Se determinará fecha para evento de descubrimiento.
 
-Manuela Quiroz & Felipe Bustamante 
+Juan Felipe Bustamante Correa ®
 
 # Qué hicimos?
 
@@ -45,14 +45,8 @@ Al momento de presionar el botón jugar, se enviaran correo a cada persona regis
 - Instalamos el script de desarrollo "dev": "nodemon server.js", para iniciar, reiniciar nuestro servidor cada vez que haya un cambio en un archivo .js o .html. 
 
 
-## Pendientes
 
-- Poner la opcion de grupos al momento de registrarse 1 jugador
-- Cada grupo tendrá un lider. 
-- Se asignaran fechas para endulzadas.
-- Se determinará fecha para evento de descubrimiento.
-- Ponerle fondo con css
-- Y entre más diseño mucho mejor. 
+
 
 
 
